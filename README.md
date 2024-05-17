@@ -28,8 +28,32 @@ The Target Class contains two values - 0 or 1 - where 0 refers to edible and 1 r
 - seaborn
 - scikit-learn
 
+# 3. Algorithms
+- Logistic Regression
+- K-Nearest Neighbors
+
 # 3. Results
 
-While a 0.64 accuracy might be acceptable in some contexts, but not for poisonous mushrooms, further improvements can be made to increase the confidence in the classifier's predictions. 
+```
+Logistic Regression:
 
-By refining the model and exploring additional techniques, you can strive for higher accuracy and a more reliable edible mushroom classifier.
+Precision: 0.61 (class 0), 0.66 (class 1)
+Recall: 0.56 (class 0), 0.71 (class 1)
+F1-Score: 0.58 (class 0), 0.68 (class 1)
+Accuracy: 0.64
+
+KNN:
+
+Precision: 0.97 (class 0), 0.99 (class 1)
+Recall: 0.99 (class 0), 0.97 (class 1)
+F1-Score: 0.98 (class 0 and 1)
+Accuracy: 0.98
+```
+
+This repository presents two machine learning classification models using logistic regression and k-nearest neighbors (KNN) to classify mushrooms as edible or not edible. 
+
+The logistic regression model achieved an accuracy of 64%, with class-specific precision, recall, and F1-scores indicating moderate performance. 
+
+In contrast, the KNN model demonstrated superior performance with an accuracy of 98%, showcasing high precision, recall, and F1-scores for both classes. 
+
+The repository provides the complete codebase, dataset, and a comprehensive analysis of the results, illustrating the comparative effectiveness of the two models on the mushroom classification task.
