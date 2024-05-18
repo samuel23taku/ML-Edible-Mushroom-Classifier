@@ -31,6 +31,7 @@ The Target Class contains two values - 0 or 1 - where 0 refers to edible and 1 r
 # 3. Algorithms
 - Logistic Regression
 - K-Nearest Neighbors
+- SVM
 
 # 3. Results
 
