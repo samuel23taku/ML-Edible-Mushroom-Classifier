@@ -32,6 +32,7 @@ The Target Class contains two values - 0 or 1 - where 0 refers to edible and 1 r
 - Logistic Regression
 - K-Nearest Neighbors
 - SVM with RBF kernel
+- Decision Tree
 
 # 3. Results
 
@@ -49,6 +50,17 @@ Precision: 0.97 (class 0), 0.99 (class 1)
 Recall: 0.99 (class 0), 0.97 (class 1)
 F1-Score: 0.98 (class 0 and 1)
 Accuracy: 0.98
+
+Decision Tree
+
+              precision    recall  f1-score   support
+
+           0       0.97      0.96      0.97      7308
+           1       0.97      0.98      0.97      8903
+
+    accuracy                           0.97     16211
+   macro avg       0.97      0.97      0.97     16211
+weighted avg       0.97      0.97      0.97     16211
 
 
 SVM:
