@@ -37,21 +37,21 @@ The Target Class contains two values - 0 or 1 - where 0 refers to edible and 1 r
 # 3. Results
 
 ```
-Logistic Regression:
+<--- Logistic Regression: --->
 
 Precision: 0.61 (class 0), 0.66 (class 1)
 Recall: 0.56 (class 0), 0.71 (class 1)
 F1-Score: 0.58 (class 0), 0.68 (class 1)
 Accuracy: 0.64
 
-KNN:
+<--- KNN --->:
 
 Precision: 0.97 (class 0), 0.99 (class 1)
 Recall: 0.99 (class 0), 0.97 (class 1)
 F1-Score: 0.98 (class 0 and 1)
 Accuracy: 0.98
 
-Decision Tree
+<--- Decision Tree :--->
 
               precision    recall  f1-score   support
 
@@ -63,7 +63,7 @@ Decision Tree
 weighted avg       0.97      0.97      0.97     16211
 
 
-SVM:
+<--- SVM: --->
 
               precision    recall  f1-score   support
 
