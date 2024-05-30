@@ -33,6 +33,7 @@ The Target Class contains two values - 0 or 1 - where 0 refers to edible and 1 r
 - K-Nearest Neighbors
 - SVM with RBF kernel
 - Decision Tree
+- Random Forest
 
 # 3. Results
 
@@ -73,14 +74,28 @@ weighted avg       0.97      0.97      0.97     16211
     accuracy                           0.98     45930
    macro avg       0.98      0.98      0.98     45930
 weighted avg       0.98      0.98      0.98     45930
+
+<--- Random Forest: --->
+
+              precision    recall  f1-score   support
+
+           0       0.98      0.99      0.98      7308
+           1       0.99      0.98      0.99      8903
+
+    accuracy                           0.98     16211
+   macro avg       0.98      0.98      0.98     16211
+weighted avg       0.98      0.98      0.98     16211
+
 ```
 
-This repository presents two machine learning classification models using logistic regression and k-nearest neighbors (KNN) to classify mushrooms as edible or not edible. 
+This repository presents two machine learning classification models using logistic regression,k-nearest neighbors, decision tree,random forest, etc to classify mushrooms as edible or not edible. 
 
 The logistic regression model achieved an accuracy of 64%, with class-specific precision, recall, and F1-scores indicating moderate performance. 
 
 The KNN model demonstrated superior performance with an accuracy of 98%, showcasing high precision, recall, and F1-scores for both classes. 
 
 The SVM model has an accuracy of 98%, but it could probably do better with more compute. 
+
+The Random Forest model has an accuracy of 98%, but a 98% accuracy is not good enough to prevent you from having mushrooms as your last meal.
 
 The repository provides the complete codebase, dataset, and a comprehensive analysis of the results, illustrating the comparative effectiveness of the two models on the mushroom classification task.
