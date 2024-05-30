@@ -34,6 +34,7 @@ The Target Class contains two values - 0 or 1 - where 0 refers to edible and 1 r
 - SVM with RBF kernel
 - Decision Tree
 - Random Forest
+- Gradient Boosting
 
 # 3. Results
 
@@ -85,6 +86,17 @@ weighted avg       0.98      0.98      0.98     45930
     accuracy                           0.98     16211
    macro avg       0.98      0.98      0.98     16211
 weighted avg       0.98      0.98      0.98     16211
+
+<--- Gradient Boosting: --->
+
+              precision    recall  f1-score   support
+
+           0       0.98      0.98      0.98      7308
+           1       0.99      0.99      0.99      8903
+
+    accuracy                           0.99     16211
+   macro avg       0.99      0.99      0.99     16211
+weighted avg       0.99      0.99      0.99     16211
 
 ```
 
